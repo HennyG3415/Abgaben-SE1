@@ -10,7 +10,8 @@ class GermanTranslatorTest {
     @Test
     void aPositiveTest() {
         GermanTranslator translator = new GermanTranslator();
-        String value = translator.translateNumber(0);
-        assertEquals(value, "null");
+        String value = translator.translateNumber(1);
+        assertEquals(value, "eins");
     }
+
 }
